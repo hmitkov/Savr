@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/number_view_press_bg"
+    android:gravity="center" >
+
+    <include
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        layout="@layout/progress" />
+
+
+    <FrameLayout
+        android:id="@+id/flSendCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_horizontal"
+        android:windowSoftInputMode="stateHidden" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/number_view_tag_wrapper" />
+
+        <EditText
+            android:id="@+id/etCode"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="60dp"
+            android:inputType="number"
+            android:maxLength="6"
+            android:maxLines="1"
+            android:textColor="#ffffff"
+            android:textSize="45sp" />
+
+        <Button
+            android:id="@+id/btnSendOrSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="235dp"
+            android:layout_marginTop="78dp"
+            android:background="@drawable/button_send"
+            android:text="@string/btn_confirm"
+            android:textSize="24sp" />
+
+        
+    </FrameLayout>
+	
+    <TextView
+        android:id="@+id/tvMessages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/flSendCode"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/msg_red"
+        android:textSize="22sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvSavedCodesNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flSendCode"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/msg_red"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/InitialMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvSavedCodesNum"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/flSendCode"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+</RelativeLayout>

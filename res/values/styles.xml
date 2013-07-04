@@ -1,0 +1,48 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="slideMenuItemButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">19pt</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:background">@drawable/slide_menu_on_select</item>
+        <item name="android:drawablePadding">7pt</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:onClick">changeCategory</item>
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    
+     <style name="slideMenuSearch">
+        <item name="android:onClick">changeCategorySearch</item>
+    </style>
+
+    <style name="slideMenuItemNumber">
+        <item name="android:layout_width">10pt</item>
+        <item name="android:layout_height">10pt</item>
+        <item name="android:layout_gravity">right|center_vertical</item>
+        <item name="android:layout_marginRight">5pt</item>
+        <item name="android:background">@drawable/category_num_items</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+</resources>

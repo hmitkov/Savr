@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="white">#FFFFFF</color>
+    <color name="light_gray">#dddddd</color>
+    <color name="light_grayD190190190">#bebebe</color>
+    <color name="light_blackD101101101">#656565</color>
+    <color name="lightGreyD241239237">#f1efed</color>
+    <color name="msg_red">#990000</color>
+    <color name="red">#FF0000</color>
+    
+    
+    <!-- 227 79 77 -->
+    <color name="action_bar">#E34f4d</color>
+    <!-- 241 239 237 -->
+
+    <color name="bg_cell">#f1efed</color>
+    <!-- tabs bg -->
+
+     <color name="tab_bar">#2b2b2b</color>
+
+    <color name="slide_menu_start_color">#393939</color>
+    <color name="slide_menu_end_color">#404040</color>
+    <drawable name="slide_menu_on_select_color">#AA6666ff</drawable>
+    <drawable name="transparent">#00000000</drawable>
+    
+    <color name="tabMedium">#2B2B2B</color>
+	<color name="tabDark">#000000</color>
+	<color name="tabTransparent">#10ffffff</color>
+	<color name="topBar">#e34f4d</color></resources>

@@ -1,0 +1,226 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGreyD241239237"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="92dp"
+        android:layout_height="50dp" >
+
+        <com.proxiad.savr.common.CustomTextViewMuseo
+            android:id="@+id/leader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="afficher"
+            android:textAlignment="center"
+            android:textColor="@color/light_grayD190190190"
+            android:textSize="8pt" 
+            android:background="@drawable/bg_leader"/>
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/slider"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:paddingLeft="85dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <com.proxiad.savr.common.CustomTextViewMuseo
+                android:id="@+id/tous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/bg_four_selected"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="tous"
+                android:textColor="@color/red"
+                android:textSize="8pt" />
+
+            <com.proxiad.savr.common.CustomTextViewMuseo
+                android:id="@+id/restaurant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:background="@drawable/bg_ten"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="restaurant"
+                android:textColor="@color/light_blackD101101101"
+                android:textSize="8pt" />
+
+            <com.proxiad.savr.common.CustomTextViewMuseo
+                android:id="@+id/cinema"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/bg_six"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="cinema"
+                android:textColor="@color/light_blackD101101101"
+                android:textSize="8pt" />
+
+            <com.proxiad.savr.common.CustomTextViewMuseo
+                android:id="@+id/livre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="livre"
+                android:background="@drawable/bg_five"
+                android:textColor="@color/light_blackD101101101"
+                android:textSize="8pt" />
+
+            <com.proxiad.savr.common.CustomTextViewMuseo
+                android:id="@+id/exposition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="exposition"
+                android:textColor="@color/light_blackD101101101"
+                android:background="@drawable/bg_ten"
+                android:textSize="8pt" />
+
+            <com.proxiad.savr.common.CustomTextViewMuseo
+                android:id="@+id/bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="bar"
+                android:background="@drawable/bg_three"
+                android:textColor="@color/light_blackD101101101"
+                android:textSize="8pt" />
+
+            <com.proxiad.savr.common.CustomTextViewMuseo
+                android:id="@+id/shopping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="shopping"
+                android:background="@drawable/bg_eight"
+                android:textColor="@color/light_blackD101101101"
+                android:textSize="8pt" />
+
+            <com.proxiad.savr.common.CustomTextViewMuseo
+                android:id="@+id/theatre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="theatre"
+                android:background="@drawable/bg_seven"
+                android:textColor="@color/light_blackD101101101"
+                android:textSize="8pt" />
+
+            <com.proxiad.savr.common.CustomTextViewMuseo
+                android:id="@+id/musique"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="musique"
+                android:background="@drawable/bg_seven"
+                android:textColor="@color/light_blackD101101101"
+                android:textSize="8pt" />
+
+            <com.proxiad.savr.common.CustomTextViewMuseo
+                android:id="@+id/hotel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="hotel"
+                android:background="@drawable/bg_five"
+                android:textColor="@color/light_blackD101101101"
+                android:textSize="8pt" />
+
+            <com.proxiad.savr.common.CustomTextViewMuseo
+                android:id="@+id/autre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="autre"
+                android:background="@drawable/bg_five"
+                android:textColor="@color/light_blackD101101101"
+                android:textSize="8pt" />
+
+            <com.proxiad.savr.common.CustomTextViewMuseo
+                android:id="@+id/concert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="concert"
+                android:textColor="@color/light_blackD101101101"
+                android:textSize="8pt" 
+                android:background="@drawable/bg_six"/>
+
+            <com.proxiad.savr.common.CustomTextViewMuseo
+                android:id="@+id/evenement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="evenement"
+                android:textColor="@color/light_blackD101101101"
+                android:textSize="8pt" 
+                android:background="@drawable/bg_ten"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:background="@color/lightGreyD241239237"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <fragment
+            android:id="@+id/mapLocations"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.google.android.gms.maps.SupportMapFragment"
+            android:paddingTop="50dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

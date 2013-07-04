@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".HomeActivity" >
+
+    <include layout="@layout/slide_menu" />
+
+    <LinearLayout
+        android:id="@+id/slidingPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:gravity="left"
+        android:orientation="vertical" >
+
+        <include layout="@layout/top_bar" />
+
+        <TabHost
+            android:id="@android:id/tabhost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TabHost
+                android:id="@android:id/tabhost"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <FrameLayout
+                        android:id="@android:id/tabcontent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" 
+                        android:layout_marginBottom="55dp"/>
+
+                    <TabWidget
+                        android:id="@android:id/tabs"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp" 
+                        android:background="@android:color/transparent"
+                        android:gravity = "bottom"
+                        android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+            </TabHost>
+        </TabHost>
+    </LinearLayout>
+
+</FrameLayout>
