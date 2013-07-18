@@ -1,8 +1,0 @@
-<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/ivProfilePic"
-    android:layout_width="100dp"
-    android:layout_height="100dp"
-    android:adjustViewBounds="true"
-    android:paddingLeft="10dp"
-    android:paddingRight="10dp"
-    android:paddingTop="20dp" />
